@@ -1,7 +1,7 @@
 # Site settings
-title:       Max Pechyonkin
+title:       FG Blog
 email:       
-author:      Max Pechyonkin
+author:      F-G Fernandez
 description: "Computer Science for padawans and jedi knights"
 baseurl:     ""
 url:         "https://frgfm.github.io"
