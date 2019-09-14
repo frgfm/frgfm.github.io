@@ -2,7 +2,7 @@
 layout: post
 date: 2018-06-12
 title:  Powerful things you can do with the Markdown editor
-image: assets/images/16.jpg
+image: assets/images/20190914-markdown/monte_carlo_gridworld.png
 summary: This is the summary
 permalink: /:title/
 mathjax: true
