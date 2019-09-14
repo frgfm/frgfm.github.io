@@ -1,8 +1,10 @@
 ---
 layout: post
+date: 2018-06-12
 title:  Powerful things you can do with the Markdown editor
 image: assets/images/16.jpg
 summary: This is the summary
+permalink: /:title/
 mathjax: true
 update_date: 2019-09-14
 ---
