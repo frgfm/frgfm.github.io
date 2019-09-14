@@ -103,8 +103,6 @@ printf("Hello World");
 
 ![walking]({{ site.baseurl }}/assets/images/20190914-markdown/monte_carlo_gridworld.png)
 
-![monte_carlo_gridworld](/home/fg/Documents/frgfm.github.io/assets/images/20190914-markdown/monte_carlo_gridworld.png)
-
 ## Reference lists
 
 The quick brown jumped over the lazy.
