@@ -54,12 +54,6 @@ disqus_shortname: fgfmblog
 # (leave blank to disable txtpen)
 txtpen_sitename:
 
-# Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
-
 # Social icons
 github_username: frgfm
 reddit_username:
