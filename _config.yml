@@ -95,7 +95,7 @@ text:
     stumbleupon:  'Share on StumbleUpon'
     hackernews:   'Share on Hacker News'
   post:
-    updated:        'Updated'
+    updated:        'updated on'
     minute_read:    'minute read'
     related_posts:  'Related Posts'
   index:
