@@ -12,15 +12,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="site-wrap">
     {% include header.html %}
 
-    <div class="col s12 m3">
-      <div class="table cover">
-        {% include sidebar.html %}
-      </div>
-    </div>
-
     <div class="post p2 p-responsive wrap" role="main">
-      <div class="measure">
-        {{ content }}
+      <div class="col s12 m3">
+        <div class="table cover">
+          {% include sidebar.html %}
+        </div>
+      </div>
+      <div class="col s12 m9">
+        <div class="measure">
+          {{ content }}
+        </div>
       </div>
     </div>
   </div>
