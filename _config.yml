@@ -1,7 +1,7 @@
 # Site settings
 title:       FG Blog
 email:       
-# author:      F-G Fernandez
+author:      F-G Fernandez
 description: "Computer Science for padawans and jedi knights"
 baseurl:     ""
 url:         "https://frgfm.github.io"
@@ -10,12 +10,6 @@ header_pages:
  - about.md
  - portfolio.md
  - subscribe.md
-
-owner:
-  name: "François-Guillaume Fernandez"
-  avatar: profile.jpeg
-  job: "Research Engineer @ <a href=https://www.foodvisor.io/>Foodvisor</a>"
-  bio: "Previously <a href=https://www.centralesupelec.fr/>CentraleSupélec</a>, <a href=https://www.juniorcs.fr/>Junior CentraleSupélec</a>."
 
 # - contact.md
 # - contact.html
