@@ -8,7 +8,7 @@ url:         "https://frgfm.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - portfolio.md
+ # - portfolio.md
  - subscribe.md
 
 # - contact.md
