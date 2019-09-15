@@ -1,7 +1,7 @@
 # Site settings
 title:       FG Blog
 email:       
-author:      F-G Fernandez
+# author:      F-G Fernandez
 description: "Computer Science for padawans and jedi knights"
 baseurl:     ""
 url:         "https://frgfm.github.io"
