@@ -29,11 +29,13 @@ layout: default
               urlimg=page.urlimg
               title=page.title
               caption="" %}
-{% elseif page.image %}
-  {% include image.html
-              img=page.image
-              title=page.title
-              caption="" %}
+{% else % }
+  {% if page.image %}
+    {% include image.html
+                img=page.image
+                title=page.title
+                caption="" %}
+  {% endif %}
 {% endif %}
 
 <article class="post-content">
