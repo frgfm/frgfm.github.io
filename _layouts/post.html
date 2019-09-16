@@ -24,7 +24,12 @@ layout: default
   </span>
 </div>
 
-{% if page.image %}
+{% if page.urlimg %}
+  {% include image.html
+              urlimg=page.urlimg
+              title=page.title
+              caption="" %}
+{% elif page.image %}
   {% include image.html
               img=page.image
               title=page.title
