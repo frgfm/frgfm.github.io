@@ -5,6 +5,9 @@ tags:
     - python
     - notebook
 --- 
+
+
+Blablabla 
 # Where do we start 
 
 **In [1]:**
@@ -36,8 +39,9 @@ def swish(x, beta=1):
 def mish(x):
     return x * torch.tanh(F.softplus(x))
 {% endhighlight %}
- 
+
 ## Normalized input 
+Can write everywhere
 
 **In [4]:**
 
@@ -85,46 +89,45 @@ for n, fn in act_fns:
     plt.show()
 {% endhighlight %}
 
- 
-![png]({{ BASE_PATH }}/images/activations_7_0.png) 
+
+![png](/assets/images/2020-01-04-activations/activations_7_0.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_1.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_1.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_2.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_2.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_3.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_3.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_4.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_4.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_5.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_5.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_6.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_6.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_7.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_7.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_8.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_8.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_9.png) 
+![png](/assets/images/2020-01-04-activations/activations_7_9.png) 
 
 
  
-![png]({{ BASE_PATH }}/images/activations_7_10.png) 
-
+![png](/assets/images/2020-01-04-activations/activations_7_10.png) 
