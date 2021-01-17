@@ -8,7 +8,7 @@ url:         "https://frgfm.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- # - portfolio.md
+ - portfolio.md
  - subscribe.md
 
 # - contact.md
@@ -59,7 +59,7 @@ steam_nickname:
 google_plus_id:
 linkedin_username: frgfm
 angellist_username:
-medium_id: fgfm
+medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
