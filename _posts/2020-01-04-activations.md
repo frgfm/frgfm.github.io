@@ -1,14 +1,59 @@
 ---
 layout: post
-title: "Activations"
+title: "Non-linear activation"
+urlimg: https://media.giphy.com/media/10nUdjHP9usQJG/giphy.gif
 tags:
+
     - python
+
     - notebook
 --- 
+Introducing non-linearities into neural networks.
 
 
-Blablabla 
-# Where do we start 
+
+## A story of approximation
+
+The reason behind the use of non-linearities is the [Universal approximation theorem](http://mcneela.github.io/machine_learning/2017/03/21/Universal-Approximation-Theorem.html)
+
+
+
+Linear algebra would only allow approximation of linear function
+
+Introducing non-linearities puts us in the right setup so that: with non-linearities, given an approximation error, there is a neural network of a given architecture composed of both linear and non-linear operations that will meet this error threshold.
+
+
+
+Global optimum = set of parameters value
+
+To achieve global optimum, **gradient-based approaches require those operations to be differentiable.**
+
+4 aspects to keep in mind for non-linearities:
+
+- need to be differentiable to allow gradient-based optimization
+- avoid vanishing gradients (saturation for instance) to prevent slower convergence
+- avoid dead neurons (wasted parameter)
+- preserve normalization for easier optimization. However, parameter normalization can tackle this issue
+
+
+
+avoid saturation = avoid vanishing gradient
+
+zero-centered: gradient not restricted to certain sign
+
+flat zero domain = dead neurons
+
+computation
+
+
+
+problems: vanishing gradients, exploding gradients
+
+
+
+
+
+
 
 **In [1]:**
 
@@ -93,41 +138,41 @@ for n, fn in act_fns:
 ![png](/assets/images/2020-01-04-activations/activations_7_0.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_1.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_2.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_3.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_4.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_5.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_6.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_7.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_8.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_9.png) 
 
 
- 
+
 ![png](/assets/images/2020-01-04-activations/activations_7_10.png) 
