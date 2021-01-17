@@ -53,8 +53,6 @@ problems: vanishing gradients, exploding gradients
 
 
 
-
-
 **In [1]:**
 
 {% highlight python %}
