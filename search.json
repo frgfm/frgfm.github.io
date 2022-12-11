@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "projects/TorchScan/index.html",
+    "href": "projects/TorchScan/index.html",
+    "title": "TorchScan",
     "section": "",
-    "text": "docTR\n\n\nOptical Character Recognition made seamless & accessible to anyone, powered by TensorFlow 2 & PyTorch\n\n\n\nFrançois-Guillaume Fernandez, Charles Gaillard, Felix Dittrich, Siddhant Bahuguna\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTorchScan\n\n\nSeamless analysis of your PyTorch models\n\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTorchCAM\n\n\nClass activation maps for your PyTorch models\n\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPyronear\n\n\nDeep learning and edge computing for wildfire detection\n\n\n\nFrançois-Guillaume Fernandez, Mateo Lostanlen, Sébastien Elmaleh, Félix Veith, Bruno Lenzi, Guillaume Fidanza\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHolocron\n\n\nModules, operations and models for computer vision in PyTorch.\n\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/docTR/index.html",
+    "href": "projects/docTR/index.html",
+    "title": "docTR",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/docTR/index.html#additional-resources",
+    "href": "projects/docTR/index.html#additional-resources",
+    "title": "docTR",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nExample Notebooks"
   },
   {
     "objectID": "projects/Pyronear/index.html",
@@ -49,25 +63,18 @@
     "text": "Additional resources\n\nExample Notebooks"
   },
   {
-    "objectID": "projects/TorchScan/index.html",
-    "href": "projects/TorchScan/index.html",
-    "title": "TorchScan",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "Source\nDocumentation"
+    "text": "Hello there 👋\nI’m FG (short for François-Guillaume 🇫🇷)\nMy background revolves around computer science & engineering, and I have been working in early stage startups for the last 5 years! Those positions have gradually gotten me to specialize in Deep Learning and develop a taste for open source projects.\nI do believe that posting about a topic forces me to sharpen my knowledge and document my progression, which sounds like a decent win 😁\nWhat you can expect me to write about in this blog 1:\n\ncomputer science & mathematics (deep learning mostly)\nphysics\nresource efficiency\nmusic\nphotography\nentrepreneurship\n\nEnjoy the tour!\n\n\n\nFootnotes\n\n\nthis website is powered by Quarto.↩︎"
   },
   {
-    "objectID": "projects/docTR/index.html",
-    "href": "projects/docTR/index.html",
-    "title": "docTR",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Source\nDocumentation"
-  },
-  {
-    "objectID": "projects/docTR/index.html#additional-resources",
-    "href": "projects/docTR/index.html#additional-resources",
-    "title": "docTR",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nExample Notebooks"
+    "text": "docTR\n\n\nOptical Character Recognition made seamless & accessible to anyone, powered by TensorFlow 2 & PyTorch\n\n\n\nFrançois-Guillaume Fernandez, Charles Gaillard, Felix Dittrich, Siddhant Bahuguna\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTorchScan\n\n\nSeamless analysis of your PyTorch models\n\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTorchCAM\n\n\nClass activation maps for your PyTorch models\n\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPyronear\n\n\nDeep learning and edge computing for wildfire detection\n\n\n\nFrançois-Guillaume Fernandez, Mateo Lostanlen, Sébastien Elmaleh, Félix Veith, Bruno Lenzi, Guillaume Fidanza\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHolocron\n\n\nModules, operations and models for computer vision in PyTorch.\n\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/laptop-selection.html",
@@ -131,12 +138,5 @@
     "title": "Posts",
     "section": "",
     "text": "How to choose your new laptop\n\n\n\n\n\n\n\nhardware\n\n\nlaptop\n\n\n\n\nLet’s explore together how accessible it is for anyone to efficiently select the best laptop for their needs.\n\n\n\n\n\n\nMay 29, 2022\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hello there 👋\nI’m FG (short for François-Guillaume 🇫🇷)\nMy background revolves around computer science & engineering, and I have been working in early stage startups for the last 5 years! Those positions have gradually gotten me to specialize in Deep Learning and develop a taste for open source projects.\nI do believe that posting about a topic forces me to sharpen my knowledge and document my progression, which sounds like a decent win 😁\nWhat you can expect me to write about in this blog 1:\n\ncomputer science & mathematics (deep learning mostly)\nphysics\nresource efficiency\nmusic\nphotography\nentrepreneurship\n\nEnjoy the tour!\n\n\n\nFootnotes\n\n\nthis website is powered by Quarto.↩︎"
   }
 ]
