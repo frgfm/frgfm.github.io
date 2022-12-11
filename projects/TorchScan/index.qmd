@@ -1,0 +1,18 @@
+---
+title: TorchScan
+description: Seamless analysis of your PyTorch models
+# date: "2022-05-29"
+author: 
+  - "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+image: https://frgfm.github.io/torch-scan/latest/_static/logo.png
+image-alt: Library logo of TorchScan
+open-graph: true
+twitter-card: true
+draft: false
+---
+
+
+## Main resources
+
+- [Source](https://github.com/frgfm/torch-scan)
+- [Documentation](https://frgfm.github.io/torch-scan/latest/)

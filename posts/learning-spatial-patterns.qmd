@@ -1,0 +1,132 @@
+---
+title: Learning spatial patterns
+description: The tales of convolutions
+date: "2019-09-16"
+hide: true
+toc: true
+layout: post
+categories: [deep-learning, convolutions, python, pytorch]
+image: https://i.imgflip.com/1bc3wo.jpg
+author: "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+from: markdown+emoji
+draft: true
+---
+
+1D-convolution
+
+cross-correlation
+
+
+
+2D-convolution
+
+![](https://miro.medium.com/max/395/1*1okwhewf5KCtIPaFib4XaA.gif)
+
+
+
+Atrous conv / dilated conv
+
+![](https://miro.medium.com/max/395/1*SVkgHoFoiMZkjy54zM_SUw.gif)
+
+Transposed convolutions
+
+![](https://miro.medium.com/max/395/1*Lpn4nag_KRMfGkx1k6bV-g.gif)
+
+
+
+**Box convolutions**
+
+![](https://user-images.githubusercontent.com/9570420/41361143-f6db467a-6f36-11e8-9dfc-086a79256bfc.png)
+
+
+
+![](https://user-images.githubusercontent.com/9570420/50013966-a9fe5580-ffd3-11e8-8824-8b1b1673ba83.png)
+
+<https://github.com/shrubb/box-convolutions>
+
+
+
+**Octave convolutions**
+
+![](https://miro.medium.com/max/1961/1*7WOSbjWay0ICUEgfvd4k3w.png)
+
+
+
+![](https://miro.medium.com/max/2162/1*ddtqFnqQGTeifm10UjtxyA.png)
+
+https://arxiv.org/abs/1904.05049
+
+
+
+**Spatial separable convolutions**
+
+divide kernel N-dim into N kernels 1-dim
+
+![](https://miro.medium.com/max/1238/1*o3mKhG3nHS-1dWa_plCeFw.png)
+
+initially: 9 multiplications
+
+now: 2 * (3 multiplications) = 6
+
+main issue: not all kernels are spatially separable
+
+
+
+**Depthwise Separable convolutions**
+
+Convolution kernels don't have an output channel dimension
+
+![](https://miro.medium.com/max/1308/1*yG6z6ESzsRW-9q5F_neOsg.png)
+
+then perform pointwise convolution (conv1x1)
+
+![](https://miro.medium.com/max/1222/1*37sVdBZZ9VK50pcAklh8AQ.png)
+
+but with OUTPUT_CHANNELS kernels
+
+
+
+with 256 output channels, initially :
+
+- num parameters: 5x5x3x256 = 19200 parameters 
+
+- num operations: num_parameters * (8*8) = 1.23M operations
+
+Now:
+
+- num parameters: 5x5 + 256 * 3 = 793 parameters
+- num operations: (8 * 8) * (3 * 5 * 5) + (8 * 8) * 3 * 256 = 53952 operations
+
+
+
+
+
+Grouped convolutions
+
+
+
+**MixConv**
+
+**original**: out_chan * k * k 
+
+num parameters: $k^2 \cdot in\_c \cdot out\_c$
+
+num operations: $out\_size^2 \cdot k^2 \cdot in\_c \cdot out\_c$
+
+**proposition**: split out_chan into groups and apply increasingly large conv kernels
+
+out_chan_group1 * (3 * 3) + out_chan_group2 * (5 * 5) + ... + out_chan_groupN * (k * k)
+
+num parameters: $in\_c \cdot \frac{out\_c}{(k - 1)/2} \cdot \sum\limits_{i=1}^{(k-1)/2} (2i + 1)^2 $
+
+num operations: $$
+
+
+
+
+
+AdderNet
+
+
+
+Deformable Conv

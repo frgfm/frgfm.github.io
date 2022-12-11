@@ -1,0 +1,50 @@
+---
+title: A story of approximation
+description: Introducing non-linearities into neural networks
+date: "2020-01-04"
+hide: true
+toc: true
+layout: post
+categories: [deep-learning, activations, python, pytorch]
+image: https://media.giphy.com/media/10nUdjHP9usQJG/giphy.gif
+author: "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+from: markdown+emoji
+draft: true
+---
+
+## A story of approximation
+
+The reason behind the use of non-linearities is the [Universal approximation theorem](http://mcneela.github.io/machine_learning/2017/03/21/Universal-Approximation-Theorem.html)
+
+
+
+Linear algebra would only allow approximation of linear function
+
+Introducing non-linearities puts us in the right setup so that: with non-linearities, given an approximation error, there is a neural network of a given architecture composed of both linear and non-linear operations that will meet this error threshold.
+
+
+
+Global optimum = set of parameters value
+
+To achieve global optimum, **gradient-based approaches require those operations to be differentiable.**
+
+4 aspects to keep in mind for non-linearities:
+
+- need to be differentiable to allow gradient-based optimization
+- avoid vanishing gradients (saturation for instance) to prevent slower convergence
+- avoid dead neurons (wasted parameter)
+- preserve normalization for easier optimization. However, parameter normalization can tackle this issue
+
+
+
+avoid saturation = avoid vanishing gradient
+
+zero-centered: gradient not restricted to certain sign
+
+flat zero domain = dead neurons
+
+computation
+
+
+
+problems: vanishing gradients, exploding gradients

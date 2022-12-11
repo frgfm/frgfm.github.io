@@ -1,0 +1,58 @@
+project:
+  type: website
+
+website:
+  title: "Tech Brewing"
+  site-url: "https://frgfm.github.io/tech-brewing"
+  repo-url: https://github.com/frgfm/tech-brewing
+  repo-actions: [issue]
+  favicon: assets/favicon.ico
+  description: "Computer Science for padawans and jedi knights."
+  page-footer:
+    center: "Computer Science for padawans and jedi knights."
+    right:
+      - icon: github
+        href: https://github.com/frgfm
+      - icon: twitter
+        href: https://twitter.com/FrG_FM
+      - icon: linkedin
+        href: https://www.linkedin.com/in/frgfm/
+  navbar:
+    right:
+      - text: Posts
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: About Me
+        href: about.qmd
+      - icon: github
+        href: https://github.com/frgfm
+      - icon: twitter
+        href: https://twitter.com/FrG_FM
+      - icon: linkedin
+        href: https://www.linkedin.com/in/frgfm/
+  twitter-card: 
+    title: Tech Brewing
+    description: "Computer Science for padawans and jedi knights."
+    image: assets/favicon.ico
+    image-alt: Logo of the blog
+    image-width: 500
+    image-height: 500
+    card-style: summary # alternative summary_large_image
+    creator: "@FrG_FM"
+    site: "@FrG_FM"
+  open-graph: 
+    #description: The personal website of Ella Kaye
+    image: assets/favicon.ico
+    image-alt: Logo of the blog
+    image-width: 500
+    image-height: 500
+    locale: en-US
+  google-analytics:
+    tracking-id: "UA-148140560-1"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    smooth-scroll: true
