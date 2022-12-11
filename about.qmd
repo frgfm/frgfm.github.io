@@ -5,6 +5,8 @@ about:
   template: jolla
 from: markdown+emoji
 page-layout: full
+aliases:
+  - /tech-brewing/about/
 ---
 
 Hello there :wave:

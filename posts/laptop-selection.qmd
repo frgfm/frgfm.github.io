@@ -11,7 +11,7 @@ author: "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
 from: markdown+emoji
 draft: false
 aliases:
-  - /choosing-a-new-laptop
+  - /tech-brewing/choosing-a-new-laptop
 ---
 
 Feeling like a colorblind person being asked to choose the red balloon when selecting your new laptop? In this article, we'll go though an **easy way for an efficient laptop selection**.
