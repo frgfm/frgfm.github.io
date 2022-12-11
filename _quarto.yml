@@ -3,8 +3,8 @@ project:
 
 website:
   title: "Tech Brewing"
-  site-url: "https://frgfm.github.io/tech-brewing"
-  repo-url: https://github.com/frgfm/tech-brewing
+  site-url: "https://frgfm.github.io/"
+  repo-url: https://github.com/frgfm/frgfm.github.io
   repo-actions: [issue]
   favicon: assets/favicon.ico
   description: "Computer Science for padawans and jedi knights."

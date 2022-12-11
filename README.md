@@ -1,5 +1,5 @@
-![Build status](https://github.com/frgfm/tech-brewing/workflows/build/badge.svg) 
-![Deploy status](https://github.com/frgfm/tech-brewing/workflows/GH-Pages%20Status/badge.svg) 
+![Build status](https://github.com/frgfm/frgfm.github.io/workflows/build/badge.svg) 
+![Deploy status](https://github.com/frgfm/frgfm.github.io/workflows/GH-Pages%20Status/badge.svg) 
 
 # Technical blog
 
@@ -19,8 +19,8 @@ _powered by [Quarto](https://github.com/quarto-dev/quarto-cli)_
 Now you only need to clone the repository:
 
 ```shell
-git clone https://github.com/frgfm/tech-brewing.git
-cd tech-brewing/
+git clone https://github.com/frgfm/frgfm.github.io.git
+cd frgfm.github.io/
 ```
 
 
