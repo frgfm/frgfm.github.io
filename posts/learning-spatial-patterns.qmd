@@ -1,7 +1,7 @@
 ---
 title: Learning spatial patterns
 description: The tales of convolutions
-date: "2019-09-16"
+date: 2019-09-16
 hide: true
 toc: true
 layout: post

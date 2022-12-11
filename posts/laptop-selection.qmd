@@ -1,7 +1,7 @@
 ---
 title: How to choose your new laptop
 description: Let's explore together how accessible it is for anyone to efficiently select the best laptop for their needs.
-date: "2022-05-29"
+date: 2022-05-29
 hide: false
 toc: true
 layout: post
@@ -12,6 +12,17 @@ from: markdown+emoji
 draft: false
 aliases:
   - /tech-brewing/choosing-a-new-laptop
+twitter-card: 
+# uncomment lines below for different title and description to post
+#  title: |
+#  description: |
+# uncomment for different image to post
+  image: https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80
+  image-alt: A picture of a laptop on a table
+#  defaults to 500 x 500 summary: uncomment lines below for large card
+#  image-width: 600 
+#  image-height: 314
+  card-style: "summary_large_image"
 ---
 
 Feeling like a colorblind person being asked to choose the red balloon when selecting your new laptop? In this article, we'll go though an **easy way for an efficient laptop selection**.
