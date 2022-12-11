@@ -44,7 +44,6 @@ website:
     site: "@FrG_FM"
   open-graph: 
     description: "Computer Science for padawans and jedi knights."
-    author: "François-Guillaume Fernandez"
     image: https://avatars.githubusercontent.com/u/26927750?v=4
     image-alt: Logo of the blog
     image-width: 500
