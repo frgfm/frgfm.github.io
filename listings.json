@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/docTR/index.html",
+      "/projects/TorchScan/index.html",
+      "/projects/TorchCAM/index.html",
+      "/projects/Pyronear/index.html",
+      "/projects/Holocron/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/laptop-selection.html"
+    ]
+  }
+]
