@@ -1,0 +1,30 @@
+---
+title: Pyronear
+description: Deep learning and edge computing for wildfire detection
+# date: "2022-05-29"
+author: 
+  - "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+  - "<a href='ttps://twitter.com/LostanlenM'>Mateo Lostanlen</a>"
+  - "<a href='https://www.linkedin.com/in/s%C3%A9bastien-elmaleh-9331a649/'>Sébastien Elmaleh</a>"
+  - "<a href='https://www.linkedin.com/in/f%C3%A9lix-veith-energy-and-climate-engineer/'>Félix Veith</a>"
+  - "<a href='https://www.linkedin.com/in/bruno-lenzi/'>Bruno Lenzi</a>"
+  - "<a href='https://github.com/x0s'>Guillaume Fidanza</a>"
+image: https://avatars.githubusercontent.com/u/61667887?s=200&v=4
+image-alt: Library logo of Pyronear
+open-graph: true
+twitter-card: true
+draft: false
+---
+
+
+## Main resources
+
+- [Website](https://www.pyronear.org)
+- [Source](https://github.com/pyronear/pyro-vision)
+- [Documentation](https://pyronear.org/pyro-vision/)
+
+
+
+## Additional resources
+
+- [Example Notebooks](https://github.com/pyronear/pyro-vision/tree/master/notebooks)

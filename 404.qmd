@@ -1,0 +1,8 @@
+---
+title: "404"
+page-layout: full
+about:
+  template: jolla
+---
+
+![](https://66.media.tumblr.com/tumblr_lz2ufhclZj1r4mh0bo1_r1_400.gifv){fig-align="center" fig-alt="Obiwan convincing you that you're not in the right place."}

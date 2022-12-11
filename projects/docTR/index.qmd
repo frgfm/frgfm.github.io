@@ -1,0 +1,27 @@
+---
+title: docTR
+description: Optical Character Recognition made seamless & accessible to anyone, powered by TensorFlow 2 & PyTorch
+# date: "2022-05-29"
+author: 
+  - "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+  - "<a href='https://github.com/charlesmindee'>Charles Gaillard</a>"
+  - "<a href='https://github.com/felixdittrich92'>Felix Dittrich</a>"
+  - "<a href='https://github.com/SiddhantBahuguna'>Siddhant Bahuguna</a>"
+image: https://github.com/mindee/doctr/releases/download/v0.3.1/Logo_doctr.gif
+image-alt: Library logo of docTR
+open-graph: true
+twitter-card: true
+draft: false
+---
+
+
+## Main resources
+
+- [Source](https://github.com/mindee/doctr)
+- [Documentation](https://mindee.github.io/doctr/)
+
+
+
+## Additional resources
+
+- [Example Notebooks](https://mindee.github.io/doctr/latest/notebooks.html)

@@ -1,0 +1,24 @@
+---
+title: TorchCAM
+description: Class activation maps for your PyTorch models
+# date: "2022-05-29"
+author: 
+  - "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+image: https://github.com/frgfm/torch-cam/releases/download/v0.2.0/torchcam_demo.png
+image-alt: Library logo of TorchCAM
+open-graph: true
+twitter-card: true
+draft: false
+---
+
+
+## Main resources
+
+- [Source](https://github.com/frgfm/torch-cam)
+- [Documentation](https://frgfm.github.io/torch-cam/latest/)
+
+
+
+## Additional resources
+
+- [Example Notebooks](https://frgfm.github.io/torch-cam/latest/notebooks.html)

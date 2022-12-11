@@ -1,0 +1,7 @@
+_site
+# Local Netlify folder
+.netlify
+.tweet-cache
+__pycache__
+
+/.quarto/

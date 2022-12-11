@@ -1,0 +1,24 @@
+---
+title: Holocron
+description: Modules, operations and models for computer vision in PyTorch.
+# date: "2022-05-29"
+author: 
+  - "<a href='https://twitter.com/FrG_FM'>François-Guillaume Fernandez</a>"
+image: https://github.com/frgfm/Holocron/releases/download/v0.1.3/holocron_logo_text.png
+image-alt: Library logo of Holocron
+open-graph: true
+twitter-card: true
+draft: false
+---
+
+
+## Main resources
+
+- [Source](https://github.com/frgfm/Holocron)
+- [Documentation](https://frgfm.github.io/Holocron/latest/)
+
+
+
+## Additional resources
+
+- [Example Notebooks](https://frgfm.github.io/Holocron/latest/notebooks.html)
