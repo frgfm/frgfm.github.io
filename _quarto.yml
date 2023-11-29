@@ -17,7 +17,7 @@ website:
       - icon: twitter
         href: https://twitter.com/FrG_FM
       - icon: linkedin
-        href: https://www.linkedin.com/in/frgfm/
+        href: https://www.linkedin.com/in/fgfm/
   navbar:
     right:
       - text: Posts
@@ -31,7 +31,7 @@ website:
       - icon: twitter
         href: https://twitter.com/FrG_FM
       - icon: linkedin
-        href: https://www.linkedin.com/in/frgfm/
+        href: https://www.linkedin.com/in/fgfm/
   twitter-card: 
     title: Tech Brewing
     description: "Computer Science for padawans and jedi knights."
