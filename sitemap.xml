@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://frgfm.github.io/projects/TorchScan/index.html</loc>
-    <lastmod>2022-12-11T21:18:03.168Z</lastmod>
-  </url>
-  <url>
-    <loc>https://frgfm.github.io/projects/docTR/index.html</loc>
-    <lastmod>2022-12-11T21:18:03.820Z</lastmod>
-  </url>
-  <url>
-    <loc>https://frgfm.github.io/projects/Pyronear/index.html</loc>
-    <lastmod>2022-12-11T21:18:04.172Z</lastmod>
-  </url>
-  <url>
-    <loc>https://frgfm.github.io/projects/Holocron/index.html</loc>
-    <lastmod>2022-12-11T21:18:04.476Z</lastmod>
-  </url>
-  <url>
-    <loc>https://frgfm.github.io/projects/TorchCAM/index.html</loc>
-    <lastmod>2022-12-11T21:18:04.764Z</lastmod>
-  </url>
-  <url>
-    <loc>https://frgfm.github.io/about.html</loc>
-    <lastmod>2022-12-11T21:18:05.096Z</lastmod>
-  </url>
-  <url>
     <loc>https://frgfm.github.io/projects.html</loc>
-    <lastmod>2022-12-11T21:18:05.468Z</lastmod>
+    <lastmod>2023-11-29T16:35:10.800Z</lastmod>
   </url>
   <url>
     <loc>https://frgfm.github.io/posts/laptop-selection.html</loc>
-    <lastmod>2022-12-11T21:18:07.024Z</lastmod>
+    <lastmod>2023-11-29T16:35:09.972Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frgfm.github.io/projects/Pyronear/index.html</loc>
+    <lastmod>2023-11-29T16:35:06.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frgfm.github.io/projects/TorchScan/index.html</loc>
+    <lastmod>2023-11-29T16:35:06.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frgfm.github.io/projects/Holocron/index.html</loc>
+    <lastmod>2023-11-29T16:35:05.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frgfm.github.io/projects/TorchCAM/index.html</loc>
+    <lastmod>2023-11-29T16:35:06.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frgfm.github.io/projects/docTR/index.html</loc>
+    <lastmod>2023-11-29T16:35:06.596Z</lastmod>
   </url>
   <url>
     <loc>https://frgfm.github.io/index.html</loc>
-    <lastmod>2022-12-11T21:18:07.996Z</lastmod>
+    <lastmod>2023-11-29T16:35:07.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://frgfm.github.io/about.html</loc>
+    <lastmod>2023-11-29T16:35:07.800Z</lastmod>
   </url>
 </urlset>

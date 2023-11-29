@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "projects/TorchScan/index.html",
-    "href": "projects/TorchScan/index.html",
-    "title": "TorchScan",
-    "section": "",
-    "text": "Source\nDocumentation"
-  },
-  {
-    "objectID": "projects/docTR/index.html",
-    "href": "projects/docTR/index.html",
-    "title": "docTR",
-    "section": "",
-    "text": "Source\nDocumentation"
-  },
-  {
-    "objectID": "projects/docTR/index.html#additional-resources",
-    "href": "projects/docTR/index.html#additional-resources",
-    "title": "docTR",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nExample Notebooks"
-  },
-  {
-    "objectID": "projects/Pyronear/index.html",
-    "href": "projects/Pyronear/index.html",
-    "title": "Pyronear",
-    "section": "",
-    "text": "Website\nSource\nDocumentation"
-  },
-  {
-    "objectID": "projects/Pyronear/index.html#additional-resources",
-    "href": "projects/Pyronear/index.html#additional-resources",
-    "title": "Pyronear",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nExample Notebooks"
-  },
-  {
-    "objectID": "projects/Holocron/index.html",
-    "href": "projects/Holocron/index.html",
-    "title": "Holocron",
-    "section": "",
-    "text": "Source\nDocumentation"
-  },
-  {
-    "objectID": "projects/Holocron/index.html#additional-resources",
-    "href": "projects/Holocron/index.html#additional-resources",
-    "title": "Holocron",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nExample Notebooks"
-  },
-  {
-    "objectID": "projects/TorchCAM/index.html",
-    "href": "projects/TorchCAM/index.html",
-    "title": "TorchCAM",
-    "section": "",
-    "text": "Source\nDocumentation"
-  },
-  {
-    "objectID": "projects/TorchCAM/index.html#additional-resources",
-    "href": "projects/TorchCAM/index.html#additional-resources",
-    "title": "TorchCAM",
-    "section": "Additional resources",
-    "text": "Additional resources\n\nExample Notebooks"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hello there 👋\nI’m FG (short for François-Guillaume 🇫🇷)\nMy background revolves around computer science & engineering, and I have been working in early stage startups for the last 5 years! Those positions have gradually gotten me to specialize in Deep Learning and develop a taste for open source projects.\nI do believe that posting about a topic forces me to sharpen my knowledge and document my progression, which sounds like a decent win 😁\nWhat you can expect me to write about in this blog 1:\n\ncomputer science & mathematics (deep learning mostly)\nphysics\nresource efficiency\nmusic\nphotography\nentrepreneurship\n\nEnjoy the tour!\n\n\n\nFootnotes\n\n\nthis website is powered by Quarto.↩︎"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -109,14 +39,14 @@
     "href": "posts/laptop-selection.html#benchmark-selection-process",
     "title": "How to choose your new laptop",
     "section": "Benchmark & selection process",
-    "text": "Benchmark & selection process\n\nBefore buying, why not upgrade?\nIf you already own a laptop, it’s possible to change some parts to boost performances without buying a new one.\nWhat you can generally upgrade/replace1:\n\nRAM: if sometimes your computer freezes temporarily, you might want to switch to a larger RAM capacity.\nStorage: you don’t have anymore room on your laptop? You can replace it with a larger one. Transferring or reading data is really slow? You can upgrade your HDD with an SSD.\nBattery: if your laptop lasts doesn’t last as half as long as it used to, consider replacing the battery.\n\n\n\n\n\n\n\nWarning\n\n\n\nEspecially for battery, it is highly recommended to replace it with one that has the same specifications! Search for your model name appended with ‘battery’.\n\n\nWhatever the type of modifications you’re considering, check whether your model can be upgraded (simple web search, or Youtube search), and if the replacing components are available for sale.\nIn a nutshell, slow data reading, insufficient storage, and dying battery are far from requiring the purchase of a new laptop. Please don’t buy a new laptop if that’s the main reason, replacing a component is significantly cheaper and the planet will be quite thankful 💚\n\n\nNarrow down the search scope\nHere we’re trying to find a few good laptop options with minimal investigation time, by using the following criteria:\n\n\n\n\n\n\n\n\nCriteria\nOptions\nRecommended\n\n\n\n\nScreen size\n13’, 15’, 17’\nUp to you\n\n\nScreen resolution\nFHD/1080p, QHD/2k, UHD/4k\nFHD is enough, the rest is up to you\n\n\nGPU Y/N\nNone 2, AMD Radeon, NVIDIA GeForce\nOnly gaming and graphics really need a GPU. Compatibility-wise, deep learning require NVIDIA products for now.\n\n\nCPU\nIntel Core, AMD Ryzen\nWhatever fits your budget and gets you the best performance 3\n\n\nRAM capacity\n4Gb, 8Gb, 16Gb, 32Gb\n>= 8Gb (>= 16Gb for gaming and graphics)\n\n\nStorage type\nHDD, SSD\nSSD if you can afford it (it’s a must-have for deep learning)\n\n\nStorage capacity\n256Gb, 512Gb, 1Tb, etc.\n>= 512Gb\n\n\nPrice\nN/A\nUp to you\n\n\n\n\n\n\n\n\n\nIntegrated vs dedicated graphics\n\n\n\n\n\nModern laptops always have a GPU, but we focus on dedicated GPUs here, which are much more powerful. You can easily recognize this with the brand: NVIDIA (GeForce products) and AMD (Radeon products) are the market leaders on dedicated GPUs, if it’s from another brand (like Intel), it’s most likely an integrated GPU. Confirm your hunch with a web search 😉\n\n\n\nGiven your budget, that should already narrow it down to a few laptop models.\n\n\nLook closer\n\n\n\n\n\nOnce you’ve exhausted the search filters, we’re going to have to take a closer look?\n\n\n\n\n\n\n\n\nCriteria\nOptions\nRecommended\n\n\n\n\nBattery\n40Wh, 60Wh, 80-90Wh\nGPUs consume more power, so graphics-intensive users should aim for at least 60Wh.\n\n\nKeyboard layout\nqwerty, azerty, etc.\ndepends on your region & spoken language\n\n\nWifi card\n11ac, 11ax\n11ax is the new, faster generation for Wifi\n\n\nOS compatibility\nWindows, MAC, Ubuntu\nyou’ll need Windows for Gaming, the rest is up to you\n\n\n\n\n\nConfirm your choice\nOkay, now you should be hesitating between a few laptops. How do you find the best one for you?\nHere is a quick checklist:\n\ncheck the manufacturer & product line current reputation 4\ncompare the CPUs using online benchmarks 5\nif there is one, compare the GPUs using online benchmarks.\nwatch 2-3 recent reviews or comparison videos 6 about those models (only look out for red flags).\n\n\n\nWhere to buy it\n\n\n\n\n\nCongratulations, you found your ideal laptop 👏\nNow to get your hands on it, at the best price, you should check:\n\nsecond-hand platforms (e.g. BackMarket): you might be surprised by how brand-new a refurbished product might look, and it’s cheaper!\nmanufacturer website (e.g. Dell, Acer, Asus, Apple, HP, Lenovo, Razer, etc.)\nyour favorite tech product store’s website\nsearching for that model on a search engine (yes, please do, you might be able to save a lot with a deal that you missed)\n\n\n\n\n\n\n\nImportant\n\n\n\nFor each laptop model, there might be multiple manufacturer configurations. Ensure that your selection is the same as the one you just benchmarked!"
+    "text": "Benchmark & selection process\n\nBefore buying, why not upgrade?\nIf you already own a laptop, it’s possible to change some parts to boost performances without buying a new one.\nWhat you can generally upgrade/replace1:\n\nRAM: if sometimes your computer freezes temporarily, you might want to switch to a larger RAM capacity.\nStorage: you don’t have anymore room on your laptop? You can replace it with a larger one. Transferring or reading data is really slow? You can upgrade your HDD with an SSD.\nBattery: if your laptop lasts doesn’t last as half as long as it used to, consider replacing the battery.\n\n\n\n\n\n\n\nWarning\n\n\n\nEspecially for battery, it is highly recommended to replace it with one that has the same specifications! Search for your model name appended with ‘battery’.\n\n\nWhatever the type of modifications you’re considering, check whether your model can be upgraded (simple web search, or Youtube search), and if the replacing components are available for sale.\nIn a nutshell, slow data reading, insufficient storage, and dying battery are far from requiring the purchase of a new laptop. Please don’t buy a new laptop if that’s the main reason, replacing a component is significantly cheaper and the planet will be quite thankful 💚\n\n\nNarrow down the search scope\nHere we’re trying to find a few good laptop options with minimal investigation time, by using the following criteria:\n\n\n\n\n\n\n\n\nCriteria\nOptions\nRecommended\n\n\n\n\nScreen size\n13’, 15’, 17’\nUp to you\n\n\nScreen resolution\nFHD/1080p, QHD/2k, UHD/4k\nFHD is enough, the rest is up to you\n\n\nGPU Y/N\nNone 2, AMD Radeon, NVIDIA GeForce\nOnly gaming and graphics really need a GPU. Compatibility-wise, deep learning require NVIDIA products for now.\n\n\nCPU\nIntel Core, AMD Ryzen\nWhatever fits your budget and gets you the best performance 3\n\n\nRAM capacity\n4Gb, 8Gb, 16Gb, 32Gb\n&gt;= 8Gb (&gt;= 16Gb for gaming and graphics)\n\n\nStorage type\nHDD, SSD\nSSD if you can afford it (it’s a must-have for deep learning)\n\n\nStorage capacity\n256Gb, 512Gb, 1Tb, etc.\n&gt;= 512Gb\n\n\nPrice\nN/A\nUp to you\n\n\n\n\n\n\n\n\n\nIntegrated vs dedicated graphics\n\n\n\n\n\nModern laptops always have a GPU, but we focus on dedicated GPUs here, which are much more powerful. You can easily recognize this with the brand: NVIDIA (GeForce products) and AMD (Radeon products) are the market leaders on dedicated GPUs, if it’s from another brand (like Intel), it’s most likely an integrated GPU. Confirm your hunch with a web search 😉\n\n\n\nGiven your budget, that should already narrow it down to a few laptop models.\n\n\nLook closer\n\n\n\n\n\nOnce you’ve exhausted the search filters, we’re going to have to take a closer look?\n\n\n\n\n\n\n\n\nCriteria\nOptions\nRecommended\n\n\n\n\nBattery\n40Wh, 60Wh, 80-90Wh\nGPUs consume more power, so graphics-intensive users should aim for at least 60Wh.\n\n\nKeyboard layout\nqwerty, azerty, etc.\ndepends on your region & spoken language\n\n\nWifi card\n11ac, 11ax\n11ax is the new, faster generation for Wifi\n\n\nOS compatibility\nWindows, MAC, Ubuntu\nyou’ll need Windows for Gaming, the rest is up to you\n\n\n\n\n\nConfirm your choice\nOkay, now you should be hesitating between a few laptops. How do you find the best one for you?\nHere is a quick checklist:\n\ncheck the manufacturer & product line current reputation 4\ncompare the CPUs using online benchmarks 5\nif there is one, compare the GPUs using online benchmarks.\nwatch 2-3 recent reviews or comparison videos 6 about those models (only look out for red flags).\n\n\n\nWhere to buy it\n\n\n\n\n\nCongratulations, you found your ideal laptop 👏\nNow to get your hands on it, at the best price, you should check:\n\nsecond-hand platforms (e.g. BackMarket): you might be surprised by how brand-new a refurbished product might look, and it’s cheaper!\nmanufacturer website (e.g. Dell, Acer, Asus, Apple, HP, Lenovo, Razer, etc.)\nyour favorite tech product store’s website\nsearching for that model on a search engine (yes, please do, you might be able to save a lot with a deal that you missed)\n\n\n\n\n\n\n\nImportant\n\n\n\nFor each laptop model, there might be multiple manufacturer configurations. Ensure that your selection is the same as the one you just benchmarked!"
   },
   {
     "objectID": "posts/laptop-selection.html#a-concrete-example",
     "href": "posts/laptop-selection.html#a-concrete-example",
     "title": "How to choose your new laptop",
     "section": "A concrete example",
-    "text": "A concrete example\nI told you I had to go through this process recently right? A good example will better illustrates the previous sections.\nSo I was looking for a laptop for machine learning 7, that I’ll be working with in different environments (sometimes in the train). That rules out the options of a desktop GPU computer (which would also take much more room at home), or cloud GPUs.\n\nNarrow down the search\nLet’s start with my personal criteria:\n\n\n\nCriteria\nValue\n\n\n\n\nUsage\nWorking & Graphics intensive\n\n\nScreen size\n15’\n\n\nScreen resolution\nFHD/1080p\n\n\nAutonomy\n>= 3-4h when not using the GPU\n\n\nBudget\n<= 1500€\n\n\nKeyboard layout\nAzerty\n\n\nStorage capacity\n>= 512Gb\n\n\n\nThe desired usage (deep learning), as mentioned previously, brings about more technical constraints:\n\nGPU: a powerful NVIDIA mobile GPU, of recent generations (RTX 20 series or 30 series), with VRAM >= 6Gb 8.\nCPU: a powerful CPU, either an Intel Core 12th gen (>= i5) or 11th gen (>= i7), or an AMD Ryzen 6k series (>=5) or 5k series (>= 7).\nRAM capacity: >= 16Gb\nStorage type: SSD\n\nI live in France, so I used the following websites for my initial search: LDLC, FNAC, CDiscount, and Amazon.\nAfter setting those filters in May 2022, here is what I ended up with:\n\nAcer Nitro 5\nAcer Predator Helios 300\nAsus TUF Dash F15\nDell G15\nLenovo Legion 5i\nMSI GF66\n\n\n\n\n\n\n\nTip\n\n\n\nIf you put the price as a filter, add 20-30%, because there might be discounts on other retailing websites.\n\n\n\n\nTake a closer look\n\n\n\n\n\nSo this means that for my budget, in my region, the following brands should be my focus: Acer, Asus, Dell, Lenovo, MSI. Let’s take a look at my criteria that don’t fit in a search filter:\n\n\n\nCriteria\nValue\n\n\n\n\nRAM dual channel Y/N\nY\n\n\nBattery\n>= 60Wh\n\n\nKeyboard layout\nazerty 🇫🇷\n\n\nWifi card\n>= 11ac\n\n\nOS compatibility\nUbuntu\n\n\n\nTo speed up the process a bit, I looked for a comparison video of best recent laptops in this category. Thanks to this review, I ruled out Acer Nitro 5 & Acer Helios (GPU, RAM & screen quality), and the MSI GF66 (terrible battery).\nWhich left me with (presumably already very good options):\n\nDell G15 5520\nLenovo Legion 5i\n\n\n\nFinal showdown\nEspecially when two laptops are similar, there is a high probability that a detailed comparison video exists!\n\nComparison takeaways:\n\n165Hz is much better\nwifi much faster on G15\nbattery better on G15\nsimilar in terms of GPU perf\nboth very good laptops\nthose are AMD Ryzen versions, so we’ll have to compare the Intel CPUs ourselves\n\nLet’s gather up all the important information and add the CPU Mark using online benchmarks.\n\n\n\n\nDell G15 5520\nLenovo Legion 5i (6th gen)\nLenovo Legion 5i (7th gen)\n\n\n\n\nPrice\n1499€\n1399€\n1499€\n\n\nCPU\nIntel Core i7 12700H\nIntel Core i7 11800H\nIntel Core i5 12500H\n\n\nCPU Mark\n27642\n21317\n23224\n\n\nGPU\nNVIDIA RTX 3060\nNVIDIA RTX 3060\nNVIDIA RTX 3060\n\n\nScreen\nFHD, 165Hz\nFHD, 120Hz\nFHD, 165Hz\n\n\nStorage\nSSD, 512Go\nSSD, 512Go\nSSD, 512Go\n\n\nRAM\n16Go, 4800MHz, dual channel\n16Go, 3200Mhz, single channel\n16Go, 4800Mhz, dual channel\n\n\nWifi\n11ax\n11ax\n11ac\n\n\nBattery\n86Wh (6 cells)\n60Wh (4 cells)\n80Wh (4 cells)\n\n\nWeight\n2.6kg\n2.4kg\n2.4kg\n\n\n\nThe screen refresh rate, RAM and battery rule out the Lenovo 6th gen. And on the remaining specs that differ between the two contenders (CPU Mark, wifi, battery), the Dell G15 is superior, so that will be my pick!\n\n\nConfirm the choice\nLet’s run down the checklist:\n\nDell is an established & reputed laptop manufacturers, and the reviews are excellent\nthe CPU is actually the best mobile CPU on the market at the moment 🥇 (May 2022)\n\n\n\n\n\n\n\nNote: Intel Core 11th and 12th gen\n\n\n\n\n\n\nYou may have noticed the difference in CPU Mark between the i7 11800H (11th gen) and i5 12500H (12th gen), which is only an i5. With their new generation of CPUs, Intel is aiming at power efficiency. Remember the physical cores of the CPU? Now your chip will onboard two types: P-cores (performance), and E-cores (efficiency). The appropriate core type will be selected dynamically to get you the best performance/battery life balance.\n\n\n\n\nthe GPU is among the best ranked mobile GPUs 🥉\n\n\n\n\n\n\n\nCompare with your previous laptop\n\n\n\n\n\nOut of safety, I compared the performances of this GPU with my last professional laptop, a Razer Blade 15, NVIDIA RTX 2070 Max Q. It outperforms it by 8-12% on all aspects, while the price being much lower (1499€ for the Dell G15, while the Razer Blade was 2200€ at the end of 2020 when it was purchased). I did the comparison because performance-wise, I was very happy with that previous laptop.\n\n\n\n\nlet’s check a few laptop reviews\n\n\n\n\n\n\n\nReview #1\n\n\n\n\n\n\nReview takeaways:\n\nSSD & RAM are upgradeable\nvery good value for money in terms of perf thanks to 12th gen Intel CPU\nvery good screen quality\nincredible battery\n\n\n\n\n\n\n\n\n\n\nReview #2\n\n\n\n\n\n\nReview takeaways:\n\nthe laptop is a bit heavy\nvery nice screen\ngood keyboard\nbest battery on the market\n\n\n\n\n\n\n\n\n\n\nHow to upgrade the SSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced note: MUX Switch\n\n\n\n\n\nSo this is a concept I discovered while benchmarking a few weeks back, an quite an interesting one, especially if you’re using your laptop for Gaming!\n\nLaptops may or may not have a MUX switch, which a feature that can bypass the iGPU when data flows from the dGPU to your screen. What does that mean?\n\nMUX Switch ON: data processed on dGPU, then directly displayed on screen.\nMUX Switch OFF: data processed on dGPU, then processed by iGPU, then displayed on screen.\n\nHaving a MUX switch gives you the choice. But when it’s on, you get better FPS in games, at the cost of higher power/battery consumption.\n\n\n\n\n\n\n\n\nNo red flags, so the choice is confirmed 🚀\nNote: I checked second-hand platforms (Backmarket), but unfortunately, this model wasn’t available. After a few Google searches, I ended up buying it on the manufacturer website because there was no price difference."
+    "text": "A concrete example\nI told you I had to go through this process recently right? A good example will better illustrates the previous sections.\nSo I was looking for a laptop for machine learning 7, that I’ll be working with in different environments (sometimes in the train). That rules out the options of a desktop GPU computer (which would also take much more room at home), or cloud GPUs.\n\nNarrow down the search\nLet’s start with my personal criteria:\n\n\n\nCriteria\nValue\n\n\n\n\nUsage\nWorking & Graphics intensive\n\n\nScreen size\n15’\n\n\nScreen resolution\nFHD/1080p\n\n\nAutonomy\n&gt;= 3-4h when not using the GPU\n\n\nBudget\n&lt;= 1500€\n\n\nKeyboard layout\nAzerty\n\n\nStorage capacity\n&gt;= 512Gb\n\n\n\nThe desired usage (deep learning), as mentioned previously, brings about more technical constraints:\n\nGPU: a powerful NVIDIA mobile GPU, of recent generations (RTX 20 series or 30 series), with VRAM &gt;= 6Gb 8.\nCPU: a powerful CPU, either an Intel Core 12th gen (&gt;= i5) or 11th gen (&gt;= i7), or an AMD Ryzen 6k series (&gt;=5) or 5k series (&gt;= 7).\nRAM capacity: &gt;= 16Gb\nStorage type: SSD\n\nI live in France, so I used the following websites for my initial search: LDLC, FNAC, CDiscount, and Amazon.\nAfter setting those filters in May 2022, here is what I ended up with:\n\nAcer Nitro 5\nAcer Predator Helios 300\nAsus TUF Dash F15\nDell G15\nLenovo Legion 5i\nMSI GF66\n\n\n\n\n\n\n\nTip\n\n\n\nIf you put the price as a filter, add 20-30%, because there might be discounts on other retailing websites.\n\n\n\n\nTake a closer look\n\n\n\n\n\nSo this means that for my budget, in my region, the following brands should be my focus: Acer, Asus, Dell, Lenovo, MSI. Let’s take a look at my criteria that don’t fit in a search filter:\n\n\n\nCriteria\nValue\n\n\n\n\nRAM dual channel Y/N\nY\n\n\nBattery\n&gt;= 60Wh\n\n\nKeyboard layout\nazerty 🇫🇷\n\n\nWifi card\n&gt;= 11ac\n\n\nOS compatibility\nUbuntu\n\n\n\nTo speed up the process a bit, I looked for a comparison video of best recent laptops in this category. Thanks to this review, I ruled out Acer Nitro 5 & Acer Helios (GPU, RAM & screen quality), and the MSI GF66 (terrible battery).\nWhich left me with (presumably already very good options):\n\nDell G15 5520\nLenovo Legion 5i\n\n\n\nFinal showdown\nEspecially when two laptops are similar, there is a high probability that a detailed comparison video exists!\n\nComparison takeaways:\n\n165Hz is much better\nwifi much faster on G15\nbattery better on G15\nsimilar in terms of GPU perf\nboth very good laptops\nthose are AMD Ryzen versions, so we’ll have to compare the Intel CPUs ourselves\n\nLet’s gather up all the important information and add the CPU Mark using online benchmarks.\n\n\n\n\nDell G15 5520\nLenovo Legion 5i (6th gen)\nLenovo Legion 5i (7th gen)\n\n\n\n\nPrice\n1499€\n1399€\n1499€\n\n\nCPU\nIntel Core i7 12700H\nIntel Core i7 11800H\nIntel Core i5 12500H\n\n\nCPU Mark\n27642\n21317\n23224\n\n\nGPU\nNVIDIA RTX 3060\nNVIDIA RTX 3060\nNVIDIA RTX 3060\n\n\nScreen\nFHD, 165Hz\nFHD, 120Hz\nFHD, 165Hz\n\n\nStorage\nSSD, 512Go\nSSD, 512Go\nSSD, 512Go\n\n\nRAM\n16Go, 4800MHz, dual channel\n16Go, 3200Mhz, single channel\n16Go, 4800Mhz, dual channel\n\n\nWifi\n11ax\n11ax\n11ac\n\n\nBattery\n86Wh (6 cells)\n60Wh (4 cells)\n80Wh (4 cells)\n\n\nWeight\n2.6kg\n2.4kg\n2.4kg\n\n\n\nThe screen refresh rate, RAM and battery rule out the Lenovo 6th gen. And on the remaining specs that differ between the two contenders (CPU Mark, wifi, battery), the Dell G15 is superior, so that will be my pick!\n\n\nConfirm the choice\nLet’s run down the checklist:\n\nDell is an established & reputed laptop manufacturers, and the reviews are excellent\nthe CPU is actually the best mobile CPU on the market at the moment 🥇 (May 2022)\n\n\n\n\n\n\n\nNote: Intel Core 11th and 12th gen\n\n\n\n\n\n\nYou may have noticed the difference in CPU Mark between the i7 11800H (11th gen) and i5 12500H (12th gen), which is only an i5. With their new generation of CPUs, Intel is aiming at power efficiency. Remember the physical cores of the CPU? Now your chip will onboard two types: P-cores (performance), and E-cores (efficiency). The appropriate core type will be selected dynamically to get you the best performance/battery life balance.\n\n\n\n\nthe GPU is among the best ranked mobile GPUs 🥉\n\n\n\n\n\n\n\nCompare with your previous laptop\n\n\n\n\n\nOut of safety, I compared the performances of this GPU with my last professional laptop, a Razer Blade 15, NVIDIA RTX 2070 Max Q. It outperforms it by 8-12% on all aspects, while the price being much lower (1499€ for the Dell G15, while the Razer Blade was 2200€ at the end of 2020 when it was purchased). I did the comparison because performance-wise, I was very happy with that previous laptop.\n\n\n\n\nlet’s check a few laptop reviews\n\n\n\n\n\n\n\nReview #1\n\n\n\n\n\n\nReview takeaways:\n\nSSD & RAM are upgradeable\nvery good value for money in terms of perf thanks to 12th gen Intel CPU\nvery good screen quality\nincredible battery\n\n\n\n\n\n\n\n\n\n\nReview #2\n\n\n\n\n\n\nReview takeaways:\n\nthe laptop is a bit heavy\nvery nice screen\ngood keyboard\nbest battery on the market\n\n\n\n\n\n\n\n\n\n\nHow to upgrade the SSD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced note: MUX Switch\n\n\n\n\n\nSo this is a concept I discovered while benchmarking a few weeks back, an quite an interesting one, especially if you’re using your laptop for Gaming!\n\nLaptops may or may not have a MUX switch, which a feature that can bypass the iGPU when data flows from the dGPU to your screen. What does that mean?\n\nMUX Switch ON: data processed on dGPU, then directly displayed on screen.\nMUX Switch OFF: data processed on dGPU, then processed by iGPU, then displayed on screen.\n\nHaving a MUX switch gives you the choice. But when it’s on, you get better FPS in games, at the cost of higher power/battery consumption.\n\n\n\n\n\n\n\n\nNo red flags, so the choice is confirmed 🚀\nNote: I checked second-hand platforms (Backmarket), but unfortunately, this model wasn’t available. After a few Google searches, I ended up buying it on the manufacturer website because there was no price difference."
   },
   {
     "objectID": "posts/laptop-selection.html#final-tips-to-get-the-best-out-of-your-laptop",
@@ -133,10 +63,129 @@
     "text": "The End\n\n\n\n\n\nBravo, you’ve made it here! Hopefully, you’ve learned a few things while reading this article, which still has a lot of room for improvements. If you spotted some imprecisions, mistakes, or if you have improvement ideas, please let me know 😁"
   },
   {
+    "objectID": "posts/laptop-selection.html#footnotes",
+    "href": "posts/laptop-selection.html#footnotes",
+    "title": "How to choose your new laptop",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nsome manufacturers, like Apple, don’t let people easily tweak the inside of their laptops.↩︎\nmodern laptops will have an integrated GPU (iGPU), when they don’t have a dedicated GPU (dGPU). Usually the iGPU brand is the same as the CPU’s manufacturer.↩︎\nCPU generation can be more important than the model type. For instance, Intel Core i5 12th gen are more powerful than i7 11th gen.↩︎\nif they have very bad reviews and sales, this product line might disappear in the near future.↩︎\non the product page, copy paste the CPU model in the search bar of the website.↩︎\nYouTube channels (e.g. JarrodsTech, MatthewMoniz, LinusTechTips) can be very useful.↩︎\nDeep Learning more specifically.↩︎\nthe typical tasks I’d be taking on are perception tasks in computer vision and a bit of NLP. So 6Gb will be enough in FP16!↩︎"
+  },
+  {
+    "objectID": "projects/Pyronear/index.html",
+    "href": "projects/Pyronear/index.html",
+    "title": "Pyronear",
+    "section": "",
+    "text": "Website\nSource\nDocumentation"
+  },
+  {
+    "objectID": "projects/Pyronear/index.html#main-resources",
+    "href": "projects/Pyronear/index.html#main-resources",
+    "title": "Pyronear",
+    "section": "",
+    "text": "Website\nSource\nDocumentation"
+  },
+  {
+    "objectID": "projects/Pyronear/index.html#additional-resources",
+    "href": "projects/Pyronear/index.html#additional-resources",
+    "title": "Pyronear",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nExample Notebooks"
+  },
+  {
+    "objectID": "projects/TorchScan/index.html",
+    "href": "projects/TorchScan/index.html",
+    "title": "TorchScan",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/TorchScan/index.html#main-resources",
+    "href": "projects/TorchScan/index.html#main-resources",
+    "title": "TorchScan",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/Holocron/index.html",
+    "href": "projects/Holocron/index.html",
+    "title": "Holocron",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/Holocron/index.html#main-resources",
+    "href": "projects/Holocron/index.html#main-resources",
+    "title": "Holocron",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/Holocron/index.html#additional-resources",
+    "href": "projects/Holocron/index.html#additional-resources",
+    "title": "Holocron",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nExample Notebooks"
+  },
+  {
+    "objectID": "projects/TorchCAM/index.html",
+    "href": "projects/TorchCAM/index.html",
+    "title": "TorchCAM",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/TorchCAM/index.html#main-resources",
+    "href": "projects/TorchCAM/index.html#main-resources",
+    "title": "TorchCAM",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/TorchCAM/index.html#additional-resources",
+    "href": "projects/TorchCAM/index.html#additional-resources",
+    "title": "TorchCAM",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nExample Notebooks"
+  },
+  {
+    "objectID": "projects/docTR/index.html",
+    "href": "projects/docTR/index.html",
+    "title": "docTR",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/docTR/index.html#main-resources",
+    "href": "projects/docTR/index.html#main-resources",
+    "title": "docTR",
+    "section": "",
+    "text": "Source\nDocumentation"
+  },
+  {
+    "objectID": "projects/docTR/index.html#additional-resources",
+    "href": "projects/docTR/index.html#additional-resources",
+    "title": "docTR",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nExample Notebooks"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Posts",
     "section": "",
     "text": "How to choose your new laptop\n\n\n\n\n\n\n\nhardware\n\n\nlaptop\n\n\n\n\nLet’s explore together how accessible it is for anyone to efficiently select the best laptop for their needs.\n\n\n\n\n\n\nMay 29, 2022\n\n\nFrançois-Guillaume Fernandez\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hello there 👋\nI’m FG (short for François-Guillaume 🇫🇷)\nMy background revolves around computer science & engineering, and I have been working in early stage startups for the last 5 years! Those positions have gradually gotten me to specialize in Deep Learning and develop a taste for open source projects.\nI do believe that posting about a topic forces me to sharpen my knowledge and document my progression, which sounds like a decent win 😁\nWhat you can expect me to write about in this blog 1:\nEnjoy the tour!"
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About Me",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nthis website is powered by Quarto.↩︎"
   }
 ]
