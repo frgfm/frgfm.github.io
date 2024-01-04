@@ -100,7 +100,7 @@ SSDs don't have any disk, and each byte of information is written on <a href="ht
 
 ![](https://www.enterprisestorageforum.com/wp-content/uploads/2021/02/fragmentation-understanding-disk-and-ram-fragmentation_6019c77851081.png){fig-align="center" fig-alt="Illustration of fragmentation on HDD."}
 
-If you have a HDD and data reading is starting to get slower, you might be experimenting fragmentation. Files that have been repeatedly read or moved, might physically be in a suboptimal order on your physical disk. Since the rotation speed of the disk is limited, fragmentation increases the time needed to access a given file.<br>
+If you have a HDD and data reading is starting to get slower, you might be experiencing fragmentation. Files that have been repeatedly read or moved, might physically be in a suboptimal order on your physical disk. Since the rotation speed of the disk is limited, fragmentation increases the time needed to access a given file.<br>
 
 You should consider <a href="https://www.dummies.com/article/technology/computers/basic-skills/for-seniors-how-to-defragment-your-computer-hard-drive-191687/">defragmenting it</a> (using free software, no rocket science to do on your side).
 :::
@@ -124,7 +124,7 @@ There are two other technical indicators for RAM:
 ::: {.callout-caution collapse="true"}
 ## Dual-channel memory
 
-When your CPU needs to hold data, but your RAM capacity or frequency isn't enough, it will start to use your storage device for this, which is much slower. Enters dual-channel memory to increase the transfer rate between the computer's memory and the CPU. Instead of having a single channel 8Gb RAM connected to your motherboard & thus CPU, having 2 4Gb RAM sticks will have the same RAM capacity as before but double the maximum speed.
+When your CPU needs to hold data, but your RAM capacity or frequency isn't enough, it will start to use your storage device for this, which is much slower. Enters dual-channel memory to increase the transfer rate between the computer's memory and the CPU. Instead of having a single channel 8Gb RAM connected to your motherboard & the CPU, having 2 4Gb RAM sticks will have the same RAM capacity as before but double the maximum speed.
 
 :::
 
@@ -326,7 +326,7 @@ What you can generally upgrade/replace[^1]:
 
 - **RAM**: if sometimes your computer freezes temporarily, you might want to switch to a larger RAM capacity.
 - **Storage**: you don't have anymore room on your laptop? You can replace it with a larger one. Transferring or reading data is really slow? You can upgrade your HDD with an SSD.
-- **Battery**: if your laptop lasts doesn't last as half as long as it used to, consider replacing the battery.
+- **Battery**: if your laptop doesn't last as half as long as it used to, consider replacing the battery.
 
 ::: {.callout-warning}
 Especially for battery, it is highly recommended to replace it with one that has the same specifications! Search for your model name appended with 'battery'.
@@ -559,7 +559,7 @@ Review takeaways:
 ::: {.callout-note collapse="true"}
 ## Advanced note: MUX Switch
 
-So this is a concept I discovered while benchmarking a few weeks back, an quite an interesting one, especially if you're using your laptop for Gaming!
+So this is a concept I discovered while benchmarking a few weeks back, quite an interesting one, especially if you're using your laptop for Gaming!
 
 {{< video https://www.youtube.com/embed/6mWies_4oDs >}}
 
