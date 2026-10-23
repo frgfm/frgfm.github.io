@@ -1,7 +1,16 @@
-![Build status](https://github.com/frgfm/frgfm.github.io/workflows/build/badge.svg) 
-![Deploy status](https://github.com/frgfm/frgfm.github.io/workflows/GH-Pages%20Status/badge.svg) 
+# Archived technical blog
 
-# Technical blog
+My personal website is now [fgfm.dev](https://fgfm.dev/).
+
+The original Quarto source is kept here, including
+[`posts/laptop-selection.qmd`](posts/laptop-selection.qmd).
+It is no longer published. Only [`docs/`](docs/) contains the redirect site,
+including a fallback for old blog URLs.
+
+After merging this change, set **Settings → Pages → Deploy from a branch**
+to **`main` / `/docs`**. This replaces the old `gh-pages` deployment and keeps
+the blog source out of the published site. Project sites in other repositories
+keep their own publishing settings.
 
 
 _powered by [Quarto](https://github.com/quarto-dev/quarto-cli)_
